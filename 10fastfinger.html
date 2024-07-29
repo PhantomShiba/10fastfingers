@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>10 FAST FINGERS</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="10fastfinger.css">
+</head>
+<body>
+    <div class="container">
+        <h1>10 FAST FINGERS</h1>
+        <div class="stats">
+            <div class="stat-item">
+                <span id="timer">60</span>
+                <label>seconds</label>
+            </div>
+            <div class="stat-item">
+                <span id="wpm">0</span>
+                <label>wpm</label>
+            </div>
+            <div class="stat-item">
+                <span id="errors">0</span>
+                <label>errors</label>
+            </div>
+        </div>
+        <div id="text-display" class="text-display"></div>
+        <input type="text" id="input-field" class="input-field" disabled placeholder="Type here...">
+        <div class="buttons">
+            <button id="start-btn" class="btn btn-primary">Start</button>
+            <button id="reset-btn" class="btn btn-secondary">Reset</button>
+        </div>
+    </div>
+    <script src="10fastfinger.js"></script>
+</body>
+</html>
